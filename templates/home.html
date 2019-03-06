@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Index page</title>
+</head>
+<body>
+    <h1>Hello World!!</h1>
+    <p th:text="${msg}">this is a pen</p>
+    <form action="/send" method="post">
+      <input type="text" name="text1" th:value="${value}">
+      <input type="submit" value="Click me">
+    </form>
+</body>
+</html>
